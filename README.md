@@ -5,8 +5,10 @@ Click here to purchase one from the Adafruit shop</a>
 
 PCB files for the Adafruit Feather ESP32-S3. 
 
-Format is EagleCAD schematic and board layout
+Format is EagleCAD schematic and board layout and is common for these products:
 * https://www.adafruit.com/product/5323
+* https://www.adafruit.com/product/5477
+* https://www.adafruit.com/product/5885
 
 ### Description
 
