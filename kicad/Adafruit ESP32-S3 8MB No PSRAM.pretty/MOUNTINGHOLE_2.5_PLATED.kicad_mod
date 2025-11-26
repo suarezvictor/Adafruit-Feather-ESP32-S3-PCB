@@ -1,0 +1,193 @@
+(footprint "MOUNTINGHOLE_2.5_PLATED"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4ca9ead9-4b4c-4f7f-abf6-15596ec3de6d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75a94c93-05cc-45f9-a488-10c68642f59d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3ce3d246-7ffc-497f-95a7-258009cdd6f5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "196f3699-2ac7-44ed-8bb7-87489770cb90")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5ca77183-770d-40ab-95c5-5305cec4d1a4")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2 0)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "3f319a43-96bf-43f3-8999-d7915b52e5e8")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type solid)
+		)
+		(fill none)
+		(layer "B.CrtYd")
+		(uuid "d417b5fd-9479-4a5c-b0f8-b47db68d2891")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 1 0)
+		(stroke
+			(width 2.032)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "8b09b0f0-8d19-4c9d-b359-9f6c28e4a11e")
+	)
+	(pad "P$1" thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 2.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.0508)
+		(thermal_bridge_angle 0)
+		(uuid "a843bdd7-21f9-4d74-95c3-1f7455cc0edc")
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.Cu")
+		(uuid "02eec249-7301-47f0-8fd0-2f3c9dd13e68")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.016 0) (xy 1.99638 -0.280573) (xy 1.937904 -0.555685) (xy 1.841708 -0.819981) (xy 1.709665 -1.068317)
+				(xy 1.544346 -1.29586) (xy 1.348967 -1.49818) (xy 1.127333 -1.67134) (xy 0.883756 -1.811969) (xy 0.622978 -1.91733)
+				(xy 0.350075 -1.985372) (xy 0.070357 -2.014772) (xy -0.210729 -2.004956) (xy -0.487715 -1.956116)
+				(xy -0.755207 -1.869203) (xy -1.008 -1.745907) (xy -1.241174 -1.58863) (xy -1.450189 -1.400431)
+				(xy -1.630978 -1.184975) (xy -1.780022 -0.946455) (xy -1.89442 -0.689513) (xy -1.971946 -0.41915)
+				(xy -2.011089 -0.140629) (xy -2.011089 0.140629) (xy -1.971946 0.41915) (xy -1.89442 0.689513) (xy -1.780022 0.946455)
+				(xy -1.630978 1.184975) (xy -1.450189 1.400431) (xy -1.241174 1.58863) (xy -1.008 1.745907) (xy -0.755207 1.869203)
+				(xy -0.487715 1.956116) (xy -0.210729 2.004956) (xy 0.070357 2.014772) (xy 0.350075 1.985372) (xy 0.622978 1.91733)
+				(xy 0.883756 1.811969) (xy 1.127333 1.67134) (xy 1.348967 1.49818) (xy 1.544346 1.29586) (xy 1.709665 1.068317)
+				(xy 1.841708 0.819981) (xy 1.937904 0.555685) (xy 1.99638 0.280573)
+			)
+		)
+		(polygon
+			(pts
+				(xy -0.016 0) (xy -0.011314 0.011314) (xy 0 0.016) (xy 0.011314 0.011314) (xy 0.016 0) (xy 0.011314 -0.011314)
+				(xy 0 -0.016) (xy -0.011314 -0.011314)
+			)
+		)
+	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "B.Cu")
+		(uuid "aedb1ed8-b3b9-47c6-8038-1b229a8ea229")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks not_allowed)
+			(vias not_allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints allowed)
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 2.016 0) (xy 1.99638 -0.280573) (xy 1.937904 -0.555685) (xy 1.841708 -0.819981) (xy 1.709665 -1.068317)
+				(xy 1.544346 -1.29586) (xy 1.348967 -1.49818) (xy 1.127333 -1.67134) (xy 0.883756 -1.811969) (xy 0.622978 -1.91733)
+				(xy 0.350075 -1.985372) (xy 0.070357 -2.014772) (xy -0.210729 -2.004956) (xy -0.487715 -1.956116)
+				(xy -0.755207 -1.869203) (xy -1.008 -1.745907) (xy -1.241174 -1.58863) (xy -1.450189 -1.400431)
+				(xy -1.630978 -1.184975) (xy -1.780022 -0.946455) (xy -1.89442 -0.689513) (xy -1.971946 -0.41915)
+				(xy -2.011089 -0.140629) (xy -2.011089 0.140629) (xy -1.971946 0.41915) (xy -1.89442 0.689513) (xy -1.780022 0.946455)
+				(xy -1.630978 1.184975) (xy -1.450189 1.400431) (xy -1.241174 1.58863) (xy -1.008 1.745907) (xy -0.755207 1.869203)
+				(xy -0.487715 1.956116) (xy -0.210729 2.004956) (xy 0.070357 2.014772) (xy 0.350075 1.985372) (xy 0.622978 1.91733)
+				(xy 0.883756 1.811969) (xy 1.127333 1.67134) (xy 1.348967 1.49818) (xy 1.544346 1.29586) (xy 1.709665 1.068317)
+				(xy 1.841708 0.819981) (xy 1.937904 0.555685) (xy 1.99638 0.280573)
+			)
+		)
+		(polygon
+			(pts
+				(xy -0.016 0) (xy -0.011314 0.011314) (xy 0 0.016) (xy 0.011314 0.011314) (xy 0.016 0) (xy 0.011314 -0.011314)
+				(xy 0 -0.016) (xy -0.011314 -0.011314)
+			)
+		)
+	)
+)
